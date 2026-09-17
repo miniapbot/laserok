@@ -9,7 +9,7 @@ export default function Header() {
 
   const greeting =
     inMiniApp && user?.first_name
-      ? `ривет, ${user.first_name}!`
+      ? `Привет, ${user.first_name}!`
       : "LaserOK";
 
   return (

@@ -15,7 +15,7 @@ export default function CartButton() {
       type="button"
       onClick={handleClick}
       className="relative p-2 rounded-xl hover:bg-slate-100 transition-colors"
-      aria-label="ткрыть корзину"
+      aria-label="Открыть корзину"
     >
       <span className="text-2xl">🛒</span>
       {count > 0 && (

@@ -2,10 +2,10 @@
 import { haptic } from "@/services/platformApi";
 
 const options: { value: SortOption; label: string }[] = [
-  { value: "default", label: "о умолчанию" },
+  { value: "default", label: "По умолчанию" },
   { value: "price-asc", label: "Сначала дешёвые" },
   { value: "price-desc", label: "Сначала дорогие" },
-  { value: "name-asc", label: "о названию" },
+  { value: "name-asc", label: "По названию" },
 ];
 
 export default function SortSelect() {

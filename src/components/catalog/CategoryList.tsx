@@ -15,7 +15,7 @@ export default function CategoryList({ products }: Props) {
   );
 
   const items: { value: string | null; label: string }[] = [
-    { value: null, label: "се" },
+    { value: null, label: "Все" },
     ...categories.map((c) => ({ value: c, label: c })),
   ];
 
