@@ -47,13 +47,13 @@ export default function ThankYouPage() {
 
       <div className="bg-white rounded-2xl shadow-sm p-4 text-left space-y-3 mb-6">
         <div className="flex justify-between text-sm">
-          <span className="text-slate-500">омер заказа</span>
+          <span className="text-slate-500">Номер заказа</span>
           <span className="font-mono font-medium text-slate-900">
             {order.id}
           </span>
         </div>
         <div className="flex justify-between text-sm">
-          <span className="text-slate-500">мя</span>
+          <span className="text-slate-500">Имя</span>
           <span className="text-slate-900">{order.customer.name}</span>
         </div>
         <div className="flex justify-between text-sm">
@@ -65,7 +65,7 @@ export default function ThankYouPage() {
           <span className="text-slate-900">{order.items.length}</span>
         </div>
         <div className="flex justify-between font-bold text-slate-900 border-t border-slate-100 pt-3">
-          <span>того</span>
+          <span>Итого</span>
           <span>{formatPrice(order.total)}</span>
         </div>
       </div>
