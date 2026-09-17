@@ -53,7 +53,7 @@ export default function CartItem({ item }: Props) {
             type="button"
             onClick={handleDecrement}
             className="w-7 h-7 rounded-lg bg-slate-100 hover:bg-slate-200 font-bold text-slate-700"
-            aria-label="меньшить"
+            aria-label="Уменьшить"
           >
             −
           </button>
@@ -64,7 +64,7 @@ export default function CartItem({ item }: Props) {
             type="button"
             onClick={handleIncrement}
             className="w-7 h-7 rounded-lg bg-slate-100 hover:bg-slate-200 font-bold text-slate-700"
-            aria-label="величить"
+            aria-label="Увеличить"
           >
             +
           </button>
@@ -79,7 +79,7 @@ export default function CartItem({ item }: Props) {
           type="button"
           onClick={handleRemove}
           className="text-slate-400 hover:text-red-500 text-lg"
-          aria-label="далить"
+          aria-label="Удалить"
         >
           🗑
         </button>
