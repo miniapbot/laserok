@@ -87,7 +87,7 @@ export default function ProductCard({ product }: Props) {
             onClick={handleAddToCart}
             className="w-full !px-2 !py-1.5 !text-xs"
           >
-             корзину
+            В корзину
           </Button>
         </div>
       </div>
